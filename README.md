@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# 🚆 Railway Assist Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered chatbot designed to help users access railway-related information through a simple conversational interface.
 
-## Available Scripts
+## 📌 Project Overview
 
-In the project directory, you can run:
+Railway Assist Chatbot is a web application that allows users to interact with a chatbot and get railway assistance through natural language conversations.
 
-### `npm start`
+The main objective is to make railway information more accessible, reduce manual searching, and provide a user-friendly experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- User registration and login
+- Interactive chatbot interface
+- Railway-related question answering
+- Simple and user-friendly interface
+- Light and dark mode support
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Purpose |
+|---|---|
+| Python | Backend development |
+| React.js | Frontend development |
+| JavaScript | Frontend functionality |
+| HTML & CSS | User interface design |
+| SQLite | Database |
+| Git & GitHub | Version control |
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```text
+Railway-assist-chatbot/
+│
+├── backend/
+│   ├── app.py
+│   ├── auth.py
+│   └── other backend files
+│
+├── public/
+│   └── Static assets
+│
+├── src/
+│   ├── App.js
+│   ├── AuthForm.js
+│   ├── ChatbotUI.js
+│   ├── Login.js
+│   └── CSS files
+│
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation and Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Python installed
+- Node.js and npm installed
+- Git installed
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/krishnarajan2005/Railway-assist-chatbot.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Navigate to the Project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd Railway-assist-chatbot
+```
 
-## Learn More
+### 3. Frontend Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install the required dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+Start the React application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Open your browser at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```text
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+### 4. Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open another terminal:
 
-### Advanced Configuration
+```bash
+cd backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Create a virtual environment:
 
-### Deployment
+```bash
+python -m venv venv
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Activate it on Windows:
 
-### `npm run build` fails to minify
+```powershell
+venv\Scripts\activate
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Install backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the backend using the appropriate command for your application.
+
+## 🚀 Future Enhancements
+
+- Improve chatbot response accuracy
+- Integrate real-time railway information
+- Add more railway-related services
+- Enhance chatbot capabilities
+
+## 👨‍💻 Author
+
+**Krishnarajan M**
+
+GitHub: [krishnarajan2005](https://github.com/krishnarajan2005)
+
+## 📄 License
+
+This project is developed for academic and learning purposes.
