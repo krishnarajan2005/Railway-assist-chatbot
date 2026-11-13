@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+backend/venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+backend/instance/
+
+# Vector database
+backend/chroma_db/
+
+# Temporary files
+backend/temp_audio.*
+
+# Node dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
